@@ -1,4 +1,6 @@
-a, b, c = float(input()), float(input()), float(input())
+a, b, c = float(input()),
+float(input()),
+float(input())
 
 if a == 0:
     print("a ≠ 0")
