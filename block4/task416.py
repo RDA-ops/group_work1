@@ -1,16 +1,16 @@
-import math
+from math import pi, sqrt
 
 S_kruga = float(input("Введите площадь круга: "))
 S_kvadrata = float(input("Введите площадь квадрата: "))
 
-r = math.sqrt(S_kruga / math.pi)
-a = math.sqrt(S_kvadrata)
+r = sqrt(S_kruga / pi)
+a = sqrt(S_kvadrata)
 if 2 * r <= a:
-    print("а) Круг уместится в квадрате: Да")
+    print("Круг уместится в квадрате: Да")
 else:
-    print("а) Круг уместится в квадрате: Нет")
+    print("Круг уместится в квадрате: Нет")
 
-if a * math.sqrt(2) <= 2 * r:
-    print("б) Квадрат уместится в круге: Да")
+if a * sqrt(2) <= 2 * r:
+    print("Квадрат уместится в круге: Да")
 else:
-    print("б) Квадрат уместится в круге: Нет")
+    print("Квадрат уместится в круге: Нет")
