@@ -1,4 +1,4 @@
-import math 
+import math
 
 S_circle = float(input("Введите площадь круга: "))
 S_triangle = float(input("Введите площадь равностороннего треугольника: "))
@@ -12,9 +12,9 @@ R = math.sqrt(S_circle / math.pi)
 
 if R <= r_vpis:
     print("a) Круг уместится в треугольнике")
-else: 
+else:
     print("a) Круг НЕ уместится в треугольнике")
-    
+
 if R_opis <= R:
     print("б) Треугольник уместится в круге")
 else:

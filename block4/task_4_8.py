@@ -11,4 +11,3 @@ elif meters_from_feet < meters_from_km:
     print("расстояние в футах меньше")
 else:
     print("Расстояния равны")
-
