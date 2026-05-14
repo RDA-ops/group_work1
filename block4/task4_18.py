@@ -4,7 +4,7 @@ maxx = int(0)
 maxy = int(0)
 a = 4
 
-while  a != 0:
+while a != 0:
     x = int(input())
     y = int(input())
     if x < minx and y < miny:

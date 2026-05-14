@@ -6,7 +6,7 @@ table_short_side = int(input("Короткая сторона b: "))
 # Корректировка, если условие a > b нарушено
 if table_long_side < table_short_side:
     table_long_side, table_short_side = table_short_side, table_long_side
-    print(f"(Примечание: стороны стола автоматически скорректированы: {table_long_side} x {table_short_side})")
+    print("(Примечание: стороны стола автоматически"скорректированы: {table_long_side} x {table_short_side})")
 
 # Ввод размеров прямоугольника
 print("\nВведите размеры прямоугольника (c > d):")
